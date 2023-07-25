@@ -1,0 +1,5 @@
+*checkpoints/
+*vscode/
+*cache*/
+*chain*
+*.Rhistory
