@@ -1,6 +1,9 @@
 # Copyright (c) Jupyter Development Team.
 # Distributed under the terms of the Modified BSD License.
 
+# HSSM image found at zenkavi/hssm
+# docker pull zenkavi/hssm
+
 ARG BASE_CONTAINER=jupyter/minimal-notebook:python-3.9
 FROM $BASE_CONTAINER
 
