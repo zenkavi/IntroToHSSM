@@ -24,17 +24,6 @@ USER $NB_UID
 
 ## TODO: Move these to a requirements.txt and install in a virtual env instead of as root
 RUN pip install --upgrade pip && \
-    pip install --no-cache-dir "scipy==1.10.1" && \
-    pip install --no-cache-dir "pymc>=5.6.0" && \
-    pip install --no-cache-dir "arviz>=0.14.0" && \
-    pip install --no-cache-dir "numpy>=1.23.4" && \
-    pip install --no-cache-dir "onnx>=1.12.0" && \
-    pip install --no-cache-dir "jax>=0.4.0"  && \
-    pip install --no-cache-dir "jaxlib>=0.4.0" && \
-    pip install --no-cache-dir "ssm-simulators>=0.3.0" && \
-    pip install --no-cache-dir "huggingface-hub>=0.15.1" && \
-    pip install --no-cache-dir "onnxruntime>=1.15.0" && \
-    pip install --no-cache-dir "bambi>=0.12.0" && \
     pip install --no-cache-dir "pytest>=7.3.1" && \
     pip install --no-cache-dir "black>=23.7.0" && \
     pip install --no-cache-dir "mypy>=1.4.1" && \
