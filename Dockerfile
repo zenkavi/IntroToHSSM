@@ -59,9 +59,6 @@ RUN mkdir /home/$NB_USER/tutorial_notebooks && \
     fix-permissions /home/$NB_USER
 
 # Copy example data and scripts to the example folder
-COPY /tutorial_notebooks/tutorial_likelihoods.ipynb /home/${NB_USER}/tutorial_notebooks
-COPY /tutorial_notebooks/hugging_face_onnx_models.ipynb /home/${NB_USER}/tutorial_notebooks
-COPY /tutorial_notebooks/pymc.ipynb /home/${NB_USER}/tutorial_notebooks
-COPY /tutorial_notebooks/no_execute/getting_started.ipynb /home/${NB_USER}/tutorial_notebooks/no_execute
-COPY /tutorial_notebooks/no_execute/lapse_prob_and_dist.ipynb /home/${NB_USER}/tutorial_notebooks/no_execute
-COPY /tutorial_notebooks/no_execute/main_tutorial.ipynb /home/${NB_USER}/tutorial_notebooks/no_execute
+# Copy example data and scripts to the example folder
+COPY /tutorial_notebooks /home/${NB_USER}/tutorial_notebooks
+
